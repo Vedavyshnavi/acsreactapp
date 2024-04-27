@@ -1,0 +1,117 @@
+form {
+  margin: auto;
+  width: 300px;
+  text-align: center; 
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  text-align: center; 
+}
+
+input[type='text'],
+input[type='password'],
+input[type='number'],
+input[type='email'],
+select,
+input[type='date'],
+textarea {
+  width: calc(100% - 40px);
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+button[type='submit'] {
+  background-color:darkred;
+  color: white;
+  padding: 15px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button[type='submit']:hover {
+  background-color: #555;
+}
+
+.navbar {
+  background-color: #f8f9fa; /* Adjusted background color */
+  padding: 10px 20px;
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: black;
+}
+
+.navbar-nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.nav-item {
+  margin-right: 20px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: black;
+}
+
+.logoutButton {
+  background-color: #f44336;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.logoutButton:hover {
+  background-color: #d32f2f; 
+}
+
+.logoutButton:focus {
+  outline: none;
+}
+
+
+.profile-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  border: 1px solid ;
+  }
+  
+  .profile-card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: 10px auto;
+  text-align: center;
+  font-family: arial;
+  border: 3px solid black;
+  padding: 10px; 
+  }
+
+  .home-background {
+    background-image: url('facultyhome.jpg');
+    background-size: 100%;
+    height: calc(100vh - 100px); /* Adjust the value (100px) according to your navbar height */
+    padding-top: 100px; /* Adjust this value to match your navbar height */
+  }

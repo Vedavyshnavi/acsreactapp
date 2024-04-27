@@ -1,0 +1,116 @@
+/* Navbar container */
+.navbar {
+  background-color: #05043b;
+  color: #fff;
+  padding: 10px 20px;
+  background-image: url('https://images.unsplash.com/photo-1513077202514-c511b41bd4c7?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+  background-size: cover;
+  background-position: center;
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: black;
+}
+
+.navbar-nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+
+.nav-item {
+  margin-right: 20px;
+}
+
+.nav-link,
+.dropbtn {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+.dropdown {
+  position: relative;
+  color: black;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color:black;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown-content a {
+  color:black;
+  padding: 10px;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: black;
+}
+
+/* admin.css */
+
+.login-background {
+  background-image: url('login.jpg');
+  background-size: 90%;
+  height: calc(100vh - 100px); /* Adjust the value (100px) according to your navbar height */
+  padding-top: 100px; /* Adjust this value to match your navbar height */
+}
+
+
+.home-background {
+  background-image: url('image.png');
+  background-size: 100%;
+  height: calc(100vh - 100px); /* Adjust the value (100px) according to your navbar height */
+  padding-top: 100px; /* Adjust this value to match your navbar height */
+}
+
+
+.logoutButton {
+  background-color: #f44336;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  }
+  
+  .logoutButton:hover {
+  background-color: #d32f2f; 
+  }
+  
+  .logoutButton:focus {
+  outline: none;
+  }
+
+  .button {
+    background-color: black;
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-right: 10px;
+  }
